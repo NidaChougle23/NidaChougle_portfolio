@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Nida's Portfolio</title>
+   <!--link style css-->
+   <link rel="stylesheet" href="style.css">
+   <!-- link font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+   <!-- Header -->
+   <header class="header">
+      <h1 class="logo">Nida Asif Chougle <span>..</span></h1>
+      <nav class="navbar">
+         <a href="#">home</a>
+         <a href="#skills">skills</a>
+         <a href="#certificates">certificates</a>
+         <a href="#qualification">qualifications</a>
+         <a href="#resume">resume</a>
+         <span></span>
+      </nav>
+      
+   </header>
+   <section class="container">
+
+      <!-- Home Section -->
+      <section class="Home">
+         <div class="content">
+            <h1>I'm <span>Nida Asif Chougle</span></h1>
+            <h3>a Computer Science graduate, Web Designer, and aspiring Data Analyst.</h3>
+            <p>I create responsive and visually engaging websites using HTML, CSS, and JavaScript, with a focus on clean design and user experience. I’m also passionate about data — from collecting and analyzing it to uncovering meaningful insights using tools like Excel, SQL, and Python. I enjoy blending creativity with analytical thinking to solve real-world problems through both design and data.</p>
+
+            <div class="link-social">
+               <a href="https://github.com/NidaChougle23/"><i class="fa-brands fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/nida-chougle-1717ba32a/"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+         </div>
+         <img src="img/nida.jpg" alt="issue">
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section reveal">
+         <h2 class="section-title">My Skills</h2>
+         <ul class="skills-list">
+            <li><i class="fa-solid fa-code"></i> HTML / CSS</li>
+            <li><i class="fa-brands fa-js"></i> JavaScript</li>
+            <li><i class="fa-brands fa-php"></i> PHP & MySQL</li>
+            <li><i class="fas fa-file-excel"></i> Excel</li>
+            <li><i class="fa-brands fa-microsoft"></i> Microsoft PowerBI</li>
+         </ul>
+      </section>
+
+      <!-- Certificates Section -->
+      <section id="certificates" class="section reveal">
+         <h2 class="section-title">Certificates</h2>
+         <div class="certificates-container">
+            <div class="certificate">
+               <h3>Web Development Training Certificate</h3>
+               <img src="img/web_dev_cert.png" alt="">
+               <p>Issued by Internshala, 2023</p>
+               <div class="link-social">
+               <a href="https://trainings.internshala.com/verify-certificate/?certificate_number=c6k0hftdvfh">Verify <i class="fa-solid fa-check"></i></a>
+               </div>
+               
+            </div>
+            <div class="certificate">
+               <h3>Power BI Workshop</h3>
+               <img src="img/powerBI.png" alt="">
+               <p>OfficeMaster, 2025</p>
+               <div class="link-social">
+                  <a href="https://certx.in/certificate/36a28147-6eed-47a5-8342-e5f926ebba61324906">Verify <i class="fa-solid fa-check"></i></a>
+               </div>
+            </div>
+            <!-- Add more certificates as needed -->
+         </div>
+      </section>
+
+      <section id="courses" class="section reveal">
+         <h2 class="section-title">Courses</h2>
+         <div class="courses-container">
+            <div class="course">
+               <h3>Data Analyst Course</h3>
+               <p>Youtube Course by <a href="https://youtu.be/lH7HfwUFnYA?si=vEEB7liRe4xjY_4-">Alex The Analyst</a></p>
+            </div>
+            <div class="course">
+               <h3>Power BI Workshop</h3>
+               <p>1 hr online webinar by  OfficeMaster, April 2025</p>
+               <div class="link-social">
+                  <a href="#certificates">Certificate</a>
+               </div>
+            </div><br>
+            <div class="course">
+               <h3>Web Development Training</h3>
+               <p>8 Week Course By Internshala Covering HTML, CSS & Bootstrap CSS, PHP, JavaScript, React.</p>
+               <div class="link-social">
+               <a href="#certificates">Certificate</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section>
+         
+      </section>
+
+      <section id="qualification-container" class="section reveal">
+         <div class="qualification">
+            <h2 class="section-title">My Qualifications</h2>
+            <div class="qualification-card">
+               <h3>Dr.Datar Science,Dr.Behere Arts,Shree Pilukaka Joshi Commerce College (B. Sc. Computer Science)</h3>
+               <p>Sem I: <b>9.90</b> Sem II: <b>9.70</b></p>
+               <p>Sem III: <b>9.80</b> Sem IV: <b>9.90</b></p>
+               <p>Sem V: <b>9.05</b></p>
+            </div>
+            <div class="qualification-card">
+               <h3>Dalwai Jr. College of Arts, Commerce and Science [12th Science] (HSC)</h3>
+               <p>Percentage: <b>74.33%</b></p>
+            </div>
+            <div class="qualification-card">
+               <h3>Khadeeja English Medium School & Khatun Abdullah Secondary School (SSC)</h3>
+               <p>Percentage: <b>89.20%</b></p>
+            </div>
+         </div>
+      </section>
+
+      <!-- Resume Section -->
+      <section id="resume" class="section reveal">
+         <h2 class="section-title">My Resume</h2>
+         <p>Download my resume to see my qualifications and experience.</p>
+         <a href="Nida.pdf" class="btn" style="text-decoration: none; color: #ffae00" download>
+            <i class="fa-solid fa-download"></i> Download Resume
+         </a>
+      </section>
+   
+   </section>
+   
+   <section class="footer">
+      <p>--Footer--</p>
+   </section>
+   <script>
+      const reveals = document.querySelectorAll(".reveal");
+   
+      function revealOnScroll() {
+         for (let i = 0; i < reveals.length; i++) {
+            const windowHeight = window.innerHeight;
+            const revealTop = reveals[i].getBoundingClientRect().top;
+            const revealPoint = 150;
+   
+            if (revealTop < windowHeight - revealPoint) {
+               reveals[i].classList.add("active");
+            } else {
+               reveals[i].classList.remove("active");
+            }
+         }
+      }
+   
+      window.addEventListener("scroll", revealOnScroll);
+   </script>
+
+</body>
+</html>
